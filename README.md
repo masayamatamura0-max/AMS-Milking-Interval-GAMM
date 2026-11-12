@@ -44,7 +44,7 @@ MIV_1_42_daily_for_GAMM.csv
 MIV_1_63_daily_for_GAMM.csv
 ```
 
-Each CSV must include `Cluster`, `Parity_group`, `DIM_corrected`, `herd_id`, `lactation_segment_id`, and outcome-specific source columns. The original script derives ECM from `Sum_Cond_MilkYield`, `Mean_Daily_MdpFatPercentage`, and `Mean_Daily_MdpProteinPercentage`; this is preserved.
+Each CSV must include `Cluster`, `Parity_group`, `DIM_corrected`, `herd_id`, `lactation_segment_id`, and outcome-specific source columns.
 
 The script fits a preliminary GAMM to estimate residual lag-1 correlation and then a Gaussian `mgcv::bam` model with AR(1), parity-specific smooths, herd and lactation random effects. It exports model information, EMMs, Tukey comparisons, smooth diagnostics, and k-check results.
 
