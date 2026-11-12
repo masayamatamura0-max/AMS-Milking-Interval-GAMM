@@ -6,7 +6,6 @@ This repository accompanies a manuscript examining early-lactation milking inter
 
 - [`supplementary/Supplemental_File_S1_GAMM_model_validation.docx`](supplementary/Supplemental_File_S1_GAMM_model_validation.docx): Supplemental File S1, Tables S1–S12.
 - [`analysis/run_all_outcomes_GAMM.R`](analysis/run_all_outcomes_GAMM.R): extended R analysis code based on the original ECM/SCC script.
-- [`config/outcome_columns.csv`](config/outcome_columns.csv): optional mapping from outcome identifiers to processed-data CSV column names.
 
 ## Outcomes and smoothing basis dimensions
 
