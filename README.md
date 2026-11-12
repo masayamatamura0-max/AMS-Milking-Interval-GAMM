@@ -27,12 +27,6 @@ This repository accompanies a manuscript examining early-lactation milking inter
 
 Install R packages `mgcv`, `emmeans`, `dplyr`, `tidyr`, `readr`, `stringr`, and `tibble`.
 
-From the repository root:
-
-```bash
-Rscript analysis/run_all_outcomes_GAMM.R data/processed results/GAMM_all_outcomes
-```
-
 The script expects six processed daily CSV files, with filenames:
 
 ```
